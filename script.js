@@ -8,5 +8,5 @@ let angle = 0;
 // Continuously rotate the line
 setInterval(() => {
   angle += 2; // Increase angle by 2 degrees
-  line.style.transform = translate(-50%, -50%) rotate(${angle}deg);
+  line.style.transform = `translate(-50%, -50%) rotate(${angle}deg)`;
 }, 20);
